@@ -1,0 +1,36 @@
+body{
+    background-color:#1e1e1e;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    width: 100%;
+    margin: 2px;
+}
+input[type=textfield] {
+    text-align: right;
+}
+.calculadora{
+    margin-top: 5%;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.theme1{ /*Borrar*/
+    background-color: #324862;
+}
+
+.theme2{ /*Operadores*/
+    background-color: #344851;
+}
+
+.theme3{ /*Numeros*/
+    background-color: #A1AF76;
+}
+
+.theme4{ /*Igual*/
+    background-color: #E5C43C;
+}

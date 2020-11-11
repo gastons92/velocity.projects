@@ -1,0 +1,83 @@
+## Velocity Template.
+<CENTER>
+    <div class="calculadora" style="width: 300px;">
+        <div class="conteiner-fluid">
+
+            <form action="/none" method="get" id="calc" name="calculator">
+                <input type="hidden" id="a" name="a">
+
+
+                <div class="row m-0">
+                    <div class="col-12 px-1">
+                        <input class="form-control" type="textfield" id="b" name="b" value="$resultado">
+                    </div>
+                </div>
+
+                <div class="row m-0">
+                    <div class="col-9 px-1">
+                        <input type="button" value="c" onClick="borrar()" class="btn btn-primary theme1">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="/" onClick="divicion()" class="btn btn-primary theme2">
+                    </div>
+                </div>
+
+                <div class="row m-0">
+                    <div class="col-3 px-1">
+                        <input type="button" value="7" onClick="num7()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="8" onClick="num8()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="9" onClick="num9()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="*" onClick="multiplicacion()" class="btn btn-primary theme2">
+                    </div>
+                </div>
+
+                <div class="row m-0">
+                    <div class="col-3 px-1">
+                        <input type="button" value="4" onClick="num4()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="5" onClick="num5()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="6" onClick="num6()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="-" onClick="resta()" class="btn btn-primary theme2">
+                    </div>
+                </div>
+
+                <div class="row m-0">
+                    <div class="col-3 px-1">
+                        <input type="button" value="1" onClick="num1()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="2" onClick="num2()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="3" onClick="num3()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="button" value="+" onClick="suma()" class="btn btn-primary theme2">
+                    </div>
+                </div>
+
+                <div class="row m-0">
+                    <div class="col-9 px-1">
+                        <input type="button" value="0" onClick="num0()" class="btn btn-primary theme3">
+                    </div>
+                    <div class="col-3 px-1">
+                        <input type="submit" value="=" class="btn btn-primary theme4">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>     
+</CENTER>    
+
+	
