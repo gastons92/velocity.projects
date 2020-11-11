@@ -27,35 +27,37 @@
         }
         else{
             var s = $('input[name=b]').val() + numero.toString();
-            $('input[name=b]').val(s);
-            
+            $('input[name=b]').val(s);    
         }
     }
+    
+    function setOperator(operador){
+        /*
+        //Usando javascript
+        document.calculator.a.value = document.calculator.b.value;
+        document.calculator.b.value = "0";
+        first_num = true;
         
-    function suma() {
-        document.calculator.a.value = document.calculator.b.value;
-        document.calculator.b.value = "0";
+        if(operador === 'suma')
+            document.calculator.action = "/getSuma";
+        if(operador === 'resta')
+            document.calculator.action = "/getResta";
+        if(operador === 'producto')
+            document.calculator.action = "/getProducto";
+        if(operador === 'cociente')
+            document.calculator.action = "/getCociente"; 
+         */
+        $('input[name=a]').val($('input[name=b]').val());
+        $('input[name=b]').val('0');
         first_num = true;
-        document.calculator.action = "/getSuma";
+        
+        if(operador === 'suma')
+            $('#calc').attr('action', '/getSuma');
+        if(operador === 'resta')
+            $('#calc').attr('action', '/getResta');
+        if(operador === 'producto')
+            $('#calc').attr('action', '/getProducto');
+        if(operador === 'cociente')
+            $('#calc').attr('action', '/getCociente');
     }
-
-    function resta() {
-        document.calculator.a.value = document.calculator.b.value;
-        document.calculator.b.value = "0";
-        first_num = true;
-        document.calculator.action = "/getResta";
-    }
-
-    function multiplicacion() {
-        document.calculator.a.value = document.calculator.b.value;
-        document.calculator.b.value = "0";
-        first_num = true;
-        document.calculator.action = "/getProducto";
-    }
-
-    function divicion() {
-        document.calculator.a.value = document.calculator.b.value;
-        document.calculator.b.value = "0";
-        first_num = true;
-        document.calculator.action = "/getCociente";
-    }
+  

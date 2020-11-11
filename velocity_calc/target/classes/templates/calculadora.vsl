@@ -18,7 +18,7 @@
                         <input type="button" value="c" onClick="borrar()" class="btn btn-primary theme1">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="/" onClick="divicion()" class="btn btn-primary theme2">
+                        <input type="button" value="/" onClick="setOperator('cociente')" class="btn btn-primary theme2">
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@
                         <input type="button" value="9" onClick="num(9)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="*" onClick="multiplicacion()" class="btn btn-primary theme2">
+                        <input type="button" value="*" onClick="setOperator('producto')" class="btn btn-primary theme2">
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@
                         <input type="button" value="6" onClick="num(6)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="-" onClick="resta()" class="btn btn-primary theme2">
+                        <input type="button" value="-" onClick="setOperator('resta')" class="btn btn-primary theme2">
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@
                         <input type="button" value="3" onClick="num(3)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="+" onClick="suma()" class="btn btn-primary theme2">
+                        <input type="button" value="+" onClick="setOperator('suma')" class="btn btn-primary theme2">
                     </div>
                 </div>
 
