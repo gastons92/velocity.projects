@@ -1,4 +1,3 @@
-//var no_operator = ("none" === document.calculator.action.substr(-4));
     var first_num = true;
     function borrar(){
         /*
@@ -11,23 +10,26 @@
         $('#calc').attr('action', '/none');
         first_num = true;
     }
-
-    function num0(){
-        if(first_num){
-        document.calculator.b.value = 0;
-        first_num = false;
-        }
-        if(document.calculator.b.value != 0)
-            document.calculator.b.value+='0';
-    }
     
     function num(numero){
+        /*
+        //Usando javascript
         if(document.calculator.b.value == 0 || first_num){
             document.calculator.b.value = numero;
             first_num = false;
         }
         else
             document.calculator.b.value+= numero.toString();
+         */
+        if($('input[name=b]').val() === '0' || first_num){
+            $('input[name=b]').val(numero.toString());
+            first_num = false;
+        }
+        else{
+            var s = $('input[name=b]').val() + numero.toString();
+            $('input[name=b]').val(s);
+            
+        }
     }
         
     function suma() {
