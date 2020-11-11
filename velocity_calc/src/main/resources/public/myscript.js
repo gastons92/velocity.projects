@@ -1,10 +1,15 @@
 //var no_operator = ("none" === document.calculator.action.substr(-4));
     var first_num = true;
     function borrar(){
-	document.calculator.a.value = 0;
-	document.calculator.b.value = 0;
-        first_num = true;
+        $('input[name=a]').val('0');
+        $('input[name=b]').val('0');
+        /*
+        document.calculator.a.value = 0;
+        document.calculator.b.value = 0;
         document.calculator.action = "/none";
+         */
+        first_num = true;
+        $('#calc').attr('action', '/none');
     }
 
     function num0(){
