@@ -24,13 +24,13 @@
 
                 <div class="row m-0">
                     <div class="col-3 px-1">
-                        <input type="button" value="7" onClick="num7()" class="btn btn-primary theme3">
+                        <input type="button" value="7" onClick="num(7)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="8" onClick="num8()" class="btn btn-primary theme3">
+                        <input type="button" value="8" onClick="num(8)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="9" onClick="num9()" class="btn btn-primary theme3">
+                        <input type="button" value="9" onClick="num(9)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
                         <input type="button" value="*" onClick="multiplicacion()" class="btn btn-primary theme2">
@@ -39,13 +39,13 @@
 
                 <div class="row m-0">
                     <div class="col-3 px-1">
-                        <input type="button" value="4" onClick="num4()" class="btn btn-primary theme3">
+                        <input type="button" value="4" onClick="num(4)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="5" onClick="num5()" class="btn btn-primary theme3">
+                        <input type="button" value="5" onClick="num(5)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="6" onClick="num6()" class="btn btn-primary theme3">
+                        <input type="button" value="6" onClick="num(6)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
                         <input type="button" value="-" onClick="resta()" class="btn btn-primary theme2">
@@ -54,13 +54,13 @@
 
                 <div class="row m-0">
                     <div class="col-3 px-1">
-                        <input type="button" value="1" onClick="num1()" class="btn btn-primary theme3">
+                        <input type="button" value="1" onClick="num(1)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="2" onClick="num2()" class="btn btn-primary theme3">
+                        <input type="button" value="2" onClick="num(2)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
-                        <input type="button" value="3" onClick="num3()" class="btn btn-primary theme3">
+                        <input type="button" value="3" onClick="num(3)" class="btn btn-primary theme3">
                     </div>
                     <div class="col-3 px-1">
                         <input type="button" value="+" onClick="suma()" class="btn btn-primary theme2">
