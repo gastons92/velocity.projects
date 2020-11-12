@@ -4,8 +4,7 @@
         document.calculator.a.value = 0;
         document.calculator.b.value = 0;
         document.calculator.action = "/none";
-         */
-        $('input[name=a]').val('0');
+        */
         $('input[name=b]').val('0');
         $('#calc').attr('action', '/none');
         first_num = true;
@@ -20,7 +19,7 @@
         }
         else
             document.calculator.b.value+= numero.toString();
-         */
+        */
         if($('input[name=b]').val() === '0' || first_num){
             $('input[name=b]').val(numero.toString());
             first_num = false;

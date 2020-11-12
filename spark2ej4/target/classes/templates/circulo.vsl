@@ -1,0 +1,22 @@
+## Velocity Template.
+
+
+  <body class="info">
+     <link rel="stylesheet" href="/style.css" type="text/css">
+
+            <h2>Perimetro del circulo: $!perimetro </h2> </br>
+
+            <h2>Area del circulo: $!area </h2> </br>
+            
+            <div class="fondo"><div class="circulo"></div>  
+
+            <script type="text/javascript" charset="utf-8">
+
+              const root = document.documentElement;
+              
+              root.style.setProperty("--w",$radio); 
+
+            </script>  
+
+    </body>
+  

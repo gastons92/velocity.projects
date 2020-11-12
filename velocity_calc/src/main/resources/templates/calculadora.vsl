@@ -9,7 +9,7 @@
 
                 <div class="row m-0">
                     <div class="col-12 px-1">
-                        <input class="form-control" type="textfield" id="b" name="b" value="$resultado">
+                         <input class="form-control" type="textfield" id="b" name="b" value="$resultado">
                     </div>
                 </div>
 

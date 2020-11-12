@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: red;
+  box-sizing: border-box;
+  text-decoration: brown;
+  background: whitesmoke;
+}﻿
+.fondo{
+  border-bottom: 1px solid black;
+  height:350px;
+}
+.circulo {
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+    border: 3px solid green;
+}
+.circulo {
+  position: absolute;
+  animation: rebota 1s alternate infinite ease-out;
+}
+
+@-webkit-keyframes rebota {
+  0% {
+    top: 300px;
+    height: 50px;
+  }
+  10% {
+    top: 260px;
+    height: 100px;
+  }
+  100% {
+    top: 50px;
+    height: 100px;
+  }
+}

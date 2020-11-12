@@ -1,0 +1,10 @@
+## Velocity Template.
+<body >
+    <link rel="stylesheet" href="/style.css" type="text/css">
+      <form class="box" action="getCircunferencia" method="get" >
+          <h1>Ingresar</h1> 
+          <input type="text" id="r" name="radio" placeholder="radio" required> 
+          <input type="submit" name="btn_cir" value="Obtener Circulo" />
+      </form>
+            
+</body>   

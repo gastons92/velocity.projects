@@ -1,0 +1,9 @@
+## Velocity Template.
+<body class="info">
+        <link rel="stylesheet" href="/style.css" type="text/css">
+        <h2> Indice de Masa Corporal: <br> $lista </h2>
+        <div
+        <br>
+        <h2> Atendiendo al IMC, tiene: <br> $!tipo </h2> 
+        
+</body>   

@@ -1,0 +1,10 @@
+## Velocity Template.
+<CENTER >
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <form class="box" action="getIMC" method="get" >
+          <h2> Ingresar Datos </h2>  
+          <input type="text" id="num0" name="peso" placeholder="peso" required> 
+          <input type="text" id="num1" name="altura" placeholder="altura" required>
+          <input type="submit" name="btn_imc" value="Obtener IMC" />
+    </form>
+</CENTER>   
